@@ -17,3 +17,7 @@ if (randomnumber > randomnumber2) {
 } else {
   document.querySelector("h1").innerHTML = " Draw!";
 }
+document.getElementById("refreshButton").addEventListener("click", function() {
+  location.reload(); // This line reloads the page
+});
+
